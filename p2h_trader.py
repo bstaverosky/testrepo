@@ -30,7 +30,7 @@ for i in range(len(asset.index)):
     else:
         asset.loc[asset.index[i], "p2h"] = 0
 
-
+# TEST COMMENT FOR GIT COMMIT
 # Calculate signal logic
 
 asset['return'] = asset['Close'].pct_change()
